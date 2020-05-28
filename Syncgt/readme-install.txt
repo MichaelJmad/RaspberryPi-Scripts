@@ -64,4 +64,5 @@ sudo systemctl enable syncgt.timer
 then you can reboot the pi and after the set time in timer it should run the sync
 In my case, the timer is set to 30 seconds to allow the pi to connect but your case may need some adjusting
 
-I do not claim to have written these scripts in there entirety But myself "JMAD" and K4tniss Modified and tweaked to get this working version at the time of writing
+I do not claim to have written these scripts in there entirety But myself "JMAD" and K4tniss 
+Modified and tweaked to get this working version at the time of writing
