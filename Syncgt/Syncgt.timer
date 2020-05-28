@@ -1,0 +1,8 @@
+[Unit]
+Description=Setting time from google
+
+[Timer]
+OnStartupSec=30
+
+[Install]
+WantedBy=multi-user.target

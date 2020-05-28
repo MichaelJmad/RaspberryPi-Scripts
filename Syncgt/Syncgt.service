@@ -1,0 +1,11 @@
+[Unit]
+Description=This_service_will_sync_the_system_clock_with_google
+Requires=local-fs.target
+After=local-fs.target
+
+[Service]
+Type=idle
+ExecStart=bash /usr/local/bin/syncgt.sh
+
+[Install]
+WantedBy=multi-user.target
