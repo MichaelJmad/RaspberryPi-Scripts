@@ -1,5 +1,5 @@
 Syncgt 
-is used to sync the raspberry pi clock with google GMT time if for whatever reason NTP "Network Time Protocol" is unavailable
+Is used to sync the raspberry pi clock with google GMT time if for whatever reason NTP "Network Time Protocol" is unavailable
 
 
 To install and run at startup you will need 3 files
@@ -63,5 +63,6 @@ sudo systemctl enable syncgt.timer
 
 then you can reboot the pi and after the set time in timer it should run the sync
 In my case, the timer is set to 30 seconds to allow the pi to connect but your case may need some adjusting
+Also make sure to set you time zone using "sudo raspi-config" 
 
 I do not claim to have written these scripts in there entirety But myself "JMAD" and K4tniss Modified and tweaked to get this working version at the time of writing
